@@ -35,3 +35,5 @@ def create_app(test_config=None):
             return 'Stub'
         else:
             return 'Got \'em'
+
+    return app
