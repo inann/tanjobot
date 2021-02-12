@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from flask import Flask
+from flask import request
 import git
 import os
 
