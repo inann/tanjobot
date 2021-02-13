@@ -35,6 +35,6 @@ def create_app(test_config=None):
         if request.method == 'GET':
             return 'Stub'
         else:
-            return 'Got \'em'
+            return '👌Got \'em'
 
     return app
